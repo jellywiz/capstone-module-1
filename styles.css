@@ -1,5 +1,41 @@
 @import url('https://fonts.googleapis.com/css2?family=Lato:wght@300&display=swap');
 
+nav {
+  background-color: white;
+}
+
+div {
+  display: block;
+}
+
 h1 {
   font-family: 'Lato', sans-serif;
+}
+
+.logo {
+  width: 100%;
+  text-align: center;
+  margin: 1em 0;
+}
+
+.humburger {
+  position: absolute;
+  top: 35px;
+  left: 20px;
+  z-index: 1;
+}
+
+.humburger-btn a img {
+  width: 20px;
+}
+
+.main-image {
+  background-image: url('./img/mobile_intro_bg.png');
+  height: 500px;
+  background-position: center top;
+  background-size: auto;
+  background-repeat: no-repeat;
+  width: 100%;
+
+  /* height: auto; */
 }
