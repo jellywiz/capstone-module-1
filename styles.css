@@ -1,11 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Lato:wght@300&display=swap');
 
-nav {
-  background-color: white;
-}
-
-header {
-  margin-right: 0;
+body {
+  margin: -20px;
 }
 
 div {
@@ -20,6 +16,7 @@ h1 {
   width: 100%;
   text-align: center;
   margin: 1em 0;
+  padding-top: 20px;
 }
 
 .humburger {
@@ -40,13 +37,12 @@ h1 {
 
 .main-image {
   background-image: url('./img/mobile_intro_bg.png');
-  height: 900px;
   background-position: center top;
   background-size: auto;
   background-repeat: no-repeat;
   width: 100%;
   text-align: center;
-  /* height: auto; */
+  height: auto;
 }
 
 .text-message {
@@ -63,4 +59,18 @@ h1 {
   height: auto;
   text-align: justify;
   word-break: break-all;
+}
+
+.dateinfo {
+  font-size: 15px;
+  font-weight: bold;
+  width: 90%;
+  display: inline-block;
+  text-align: center;
+  margin-bottom: 4px;
+  letter-spacing: 0;
+}
+
+.dateinfo .national {
+  font-weight: normal;
 }
