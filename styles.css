@@ -4,6 +4,10 @@ nav {
   background-color: white;
 }
 
+header {
+  margin-right: 0;
+}
+
 div {
   display: block;
 }
@@ -25,17 +29,38 @@ h1 {
   z-index: 1;
 }
 
+.image-title img {
+  width: 90%;
+  padding-top: 50px;
+}
+
 .humburger-btn a img {
   width: 20px;
 }
 
 .main-image {
   background-image: url('./img/mobile_intro_bg.png');
-  height: 500px;
+  height: 900px;
   background-position: center top;
   background-size: auto;
   background-repeat: no-repeat;
   width: 100%;
-
+  text-align: center;
   /* height: auto; */
+}
+
+.text-message {
+  border: 4px solid rgb(255, 255, 255);
+  background-color: rgb(247, 247, 248);
+}
+
+.message {
+  margin: 17px 0.75em 0;
+  width: calc(100% - 2.5em);
+  padding: 1em 0.5em;
+  line-height: 150%;
+  font-size: 13px;
+  height: auto;
+  text-align: justify;
+  word-break: break-all;
 }
