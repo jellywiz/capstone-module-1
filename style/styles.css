@@ -40,7 +40,7 @@ a {
 .header-h1 {
   color: rgb(239, 81, 60);
   font-family: 'Lato', sans-serif;
-  background-image: url('./img/background-title.png');
+  background-image: url('../img/background-title.png');
   background-size: cover;
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
@@ -71,7 +71,7 @@ a {
 }
 
 .main-image {
-  background-image: url('./img/mobile_intro_bg.png');
+  background-image: url('../img/mobile_intro_bg.png');
   background-position: center top;
   background-size: auto;
   background-repeat: no-repeat;
@@ -107,7 +107,7 @@ a {
 }
 
 .main-program {
-  background-image: url('./img/pattern_bg.png');
+  background-image: url('../img/pattern_bg.png');
   background-repeat: repeat;
   background-color: rgb(39, 42, 50);
   height: auto;

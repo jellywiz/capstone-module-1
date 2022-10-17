@@ -1,0 +1,104 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@300&display=swap');
+@import url('../style/styles.css');
+
+.header-title {
+  text-align: center;
+}
+
+.text-message {
+  text-align: center;
+  margin: auto;
+}
+
+.location {
+  text-align: center;
+}
+
+.dateinfo {
+  font-size: 16px;
+  font-weight: normal;
+  text-align: center;
+}
+
+.dateinfo a {
+  text-decoration: underline;
+  color: black;
+}
+
+.logo-container {
+  text-align: center;
+  padding: 20px;
+}
+
+.logo-title {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.logo-title h2 {
+  padding: 20px;
+  font-size: 32px;
+  margin-bottom: 0;
+}
+
+footer p,
+small {
+  color: white;
+  outline: 1px solid red !important;
+}
+
+.logo-container p {
+  line-height: 24px;
+}
+
+.logo-represent {
+  height: 200px;
+  border: 2px solid red;
+  margin: 30px 0;
+}
+
+.past-event-title {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.past-event {
+  text-align: center;
+}
+
+.events {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  justify-content: center;
+  text-align: center;
+  margin-bottom: 30px;
+}
+
+.event {
+  position: relative;
+}
+
+.event-img-1 {
+  width: 89%;
+  border: solid 2px red;
+}
+
+.event-description {
+  position: absolute;
+  top: 70px;
+  left: 100px;
+  background: none;
+  color: white;
+  font-weight: 700;
+}
+
+footer {
+  background-color: rgba(90, 88, 88, 0.392);
+}
