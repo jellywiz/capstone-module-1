@@ -6,6 +6,8 @@
 }
 
 .text-message {
+  border: 4px solid rgb(247, 247, 248);
+  background-color: rgb(255, 255, 255);
   text-align: center;
   margin: auto;
 }
@@ -90,6 +92,10 @@ small {
   border: solid 2px red;
 }
 
+.event-img-1:hover {
+  opacity: 0.5;
+}
+
 .event-description {
   position: absolute;
   top: 70px;
@@ -101,4 +107,31 @@ small {
 
 footer {
   background-color: rgba(90, 88, 88, 0.392);
+}
+
+@media screen and (min-width: 768px) {
+  .past-event-title h2 {
+    font-size: 32px;
+  }
+
+  .events {
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+    justify-content: center;
+    text-align: center;
+    margin-bottom: 30px;
+  }
+
+  .event-img-1 {
+    width: 350px;
+    border: solid 2px red;
+  }
+
+  .logo-represent {
+    height: 200px;
+    border: 2px solid red;
+    margin: 30px auto;
+    width: 50%;
+  }
 }
