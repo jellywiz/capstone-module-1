@@ -328,7 +328,7 @@ footer {
 .mobile-navbar {
   height: 100%;
   width: 100%;
-  background-color: red;
+  background-color: #3b3a30;
   position: fixed;
   padding-bottom: 50px;
   overflow: scroll;
@@ -340,22 +340,36 @@ footer {
   top: 100px;
   float: right;
   right: 20px;
+  cursor: pointer;
 }
 
 .mobile-nav-items {
-  padding-top: 120px;
+  padding-top: 150px;
+  width: 50%;
 }
 
 .mobile-nav-items li {
   list-style-type: none;
   margin-bottom: 30px;
+  border-bottom: 2px solid black;
 }
 
 .mobile-nav-item {
-  border: 2px solid black;
-  color: black;
-  font-size: 24px;
+  color: #c83349;
+  font-size: 32px;
   font-weight: bold;
+}
+
+.mobile-nav-item:hover {
+  content: '\00bb';
+  opacity: 0.7;
+  transition: 0.5s;
+}
+
+.mobile-nav-item::after {
+  content: ' \00bb';
+  opacity: 1;
+  transition: 0.5s;
 }
 
 .social-link-container {
