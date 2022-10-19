@@ -1,6 +1,9 @@
 const navOpen = document.getElementById('humburger-btn');
 const navClose = document.getElementById('close-menu');
 const mobileNav = document.getElementById('mobile-nav');
+const speakersCon = document.getElementById('speakers-con');
+const speakerBtnmore = document.getElementById('speaker-btn-more');
+const speakerBtnless = document.getElementById('speaker-btn-less');
 
 const SpeakerInformation = [
   {
@@ -57,5 +60,56 @@ function hideNavbar() {
   navOpen.classList.remove('hidden');
 }
 
+function showMore() {
+  const hiddenSpeaker = document.querySelectorAll('.display-off');
+  hiddenSpeaker.forEach((data) => data.classList.remove('hidden'));
+  speakerBtnmore.classList.add('hidden');
+  speakerBtnless.classList.remove('hidden');
+}
+
+function showLess() {
+  const hiddenSpeaker = document.querySelectorAll('.display-off');
+  hiddenSpeaker.forEach((data) => data.classList.add('hidden'));
+  speakerBtnmore.classList.remove('hidden');
+  speakerBtnless.classList.add('hidden');
+}
+
+function LoadSpeakers() {
+  let counter;
+
+  for (counter = 0; counter < SpeakerInformation.length; counter += 1) {
+    if (counter < 2) {
+      speakersCon.innerHTML += `
+            <div class="speaker">
+                <div class="img-container-speaker">
+                    <img src=${SpeakerInformation[counter].image} alt="">
+                </div>
+                <div class="speaker-content">
+                    <h2>${SpeakerInformation[counter].name}</h2>
+                    <p class="speaker-description">${SpeakerInformation[counter].description}</p>
+                    <hr>
+                    <p class="speaker-description2">${SpeakerInformation[counter].description1}</p>
+                </div>
+            </div>`;
+    } else {
+      speakersCon.innerHTML += `
+            <div class="speaker display-off hidden">
+                <div class="img-container-speaker">
+                    <img src=${SpeakerInformation[counter].image} alt="">
+                </div>
+                <div class="speaker-content">
+                    <h2>${SpeakerInformation[counter].name}</h2>
+                    <p class="speaker-description">${SpeakerInformation[counter].description}</p>
+                    <hr>
+                    <p class="speaker-description2">${SpeakerInformation[counter].description1}</p>
+                </div>
+            </div>`;
+    }
+  }
+}
+
+document.addEventListener('DOMContentLoaded', LoadSpeakers, false);
 navOpen.addEventListener('click', showNavbar);
 navClose.addEventListener('click', hideNavbar);
+speakerBtnmore.addEventListener('click', showMore);
+speakerBtnless.addEventListener('click', showLess);
