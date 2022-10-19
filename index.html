@@ -9,9 +9,10 @@
     <title>CAPSTONE-MODULE-1</title>
 </head>
 <body>
-    <div class="mobile-navbar hidden">
+    <div id="mobile-nav" class="mobile-navbar hidden">
         <i id="close-menu" class="fa fa-times fa-1x" aria-hidden="true"></i>
         <ul class="mobile-nav-items">
+            <li><a class="mobile-nav-item" href="index.html">Home</a></li>
             <li><a class="mobile-nav-item" href="about.html">About</a></li>
             <li><a class="mobile-nav-item" href="">Program</a></li>
             <li><a class="mobile-nav-item" href="">Join</a></li>
@@ -44,9 +45,9 @@
                     <li><button class="nav-btn">WDE Camping</button></li>
                 </div>
             </div>
-            <div class="humburger">
+            <div id="humburger-btn" class="humburger">
                 <div class="humburger-btn">
-                    <a href="about.html"><img src="img/mobile_menu.png" alt=""></a>
+                    <a><img src="img/mobile_menu.png" alt=""></a>
                 </div>
             </div>
         </nav>
@@ -112,36 +113,22 @@
     <section class="speakers-container">
         <h2 class="speakers-title">Feauters Speakers</h2>
         <div class="line"></div>
-        <div class="speakers">
-            <div class="speaker">
-                <div class="img-container-speaker">
-                    <img src="./img/speaker_02.png" alt="">
-                </div>
-                <div class="speaker-content">
-                    <h2>Mustafa Ali</h2>
-                    <p class="speaker-description">Mustafa Ali</p>
-                    <hr>
-                    <p class="speaker-description2">Ali have been into web development for 10 years and wants to share his knowledge in this filed.</p>
-                </div>
-            </div>
-            <div class="speaker">
-                <div class="img-container-speaker">
-                    <img src="./img/speaker_03.png" alt="">
-                </div>
-                <div class="speaker-content">
-                    <h2>Ali Mustafa</h2>
-                    <p class="speaker-description">Ali Mustafa</p>
-                    <hr>
-                    <p class="speaker-description2">Ali have been into web development for 10 years and wants to share his knowledge in this filed.</p>
-                </div>
-            </div>
+        <div id="speakers-con" class="speakers">
+            
         </div>
-        <div class="btn-show-more">
-            <button class="show-more-btn">
+        <div class="btn-speakers">
+            <button id="speaker-btn-more" class="show-more-btn">
                 MORE 
                 <span class="fa fa-angle-down" aria-hidden="true"></span>
             </button>
+
+             <button id="speaker-btn-less" class="show-less-btn hidden ">
+                Less 
+                <span class="fa fa-angle-up" aria-hidden="true"></span>
+            </button> 
+
         </div>
+          
 
     </section>
 

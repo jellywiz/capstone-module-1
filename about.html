@@ -9,16 +9,29 @@
     <title>About me</title>
 </head>
 <body>
-    <div class="main-image">
-        <ul class="social-links hidden1">
-            <i class="fa fa-facebook-square" aria-hidden="true"></i>
-            <i class="fa fa-twitter" aria-hidden="true"></i>
-            <li>English</li>
-            <li>My Page</li>
-            <li>Login</li>
+    <div id="mobile-nav" class="mobile-navbar hidden">
+        <i id="close-menu" class="fa fa-times fa-1x" aria-hidden="true"></i>
+        <ul class="mobile-nav-items">
+            <li><a class="mobile-nav-item" href="index.html">Home</a></li>
+            <li><a class="mobile-nav-item" href="about.html">About</a></li>
+            <li><a class="mobile-nav-item" href="">Program</a></li>
+            <li><a class="mobile-nav-item" href="">Join</a></li>
+            <li><a class="mobile-nav-item" href="">Sponser</a></li>
+            <li><a class="mobile-nav-item" href="">News</a></li>
         </ul>
+    </div>
+    <div class="main-image">
+        <div class="social-link-container">
+            <ul class="social-links">
+                <i class="fa fa-facebook-square" aria-hidden="true"></i>
+                <i class="fa fa-twitter" aria-hidden="true"></i>
+                <i>English</i>
+                <li>My Page</li>
+                <li>Login</li>
+            </ul>
+        </div>
         <nav>
-            <div class="navbar-desktop hidden1">
+            <div class="navbar-desktop">
                 <a href="index.html" class="logo-desktop">WDE <br>2022</a>
 
                 <div class="nav-list">
@@ -31,9 +44,9 @@
                 </div>
             </div>
 
-            <div class="humburger hidden">
+            <div id="humburger-btn" class="humburger">
                 <div class="humburger-btn">
-                    <a href="about.html"><img src="img/mobile_menu.png" alt=""></a>
+                    <a><img src="img/mobile_menu.png" alt=""></a>
                 </div>
             </div>
         </nav>
@@ -97,5 +110,7 @@
         <p>"WDE"<br>"2022"</p>
         <small>@2022 WDE</small>
     </footer>
+
+    <script src="main.js"></script>
 </body>
 </html>
