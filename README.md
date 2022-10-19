@@ -2,7 +2,7 @@
 
 # capstone-module-1
 
-> This project is a capstone project for students of microverse which is responsive.
+> This project is a capstone project for students of microverse which is responsive. The topic of the project is based on and organization who are aiming to create event who are intresed on learning web development.
 
 
 ## Built With
@@ -12,20 +12,29 @@
 - JavaScript DOM
 
 ## Live Demo
-<!-- https://jellywiz.github.io/Microverse-Profile-First-Project-Mobile/ -->
+[Click Here](https://jellywiz.github.io/capstone-module-1/)
 
 ### Mobile Version
-<!-- ![image](https://user-images.githubusercontent.com/83097009/193627417-0b48e459-032c-49d5-a808-b304d92316ce.png)
-![image](https://user-images.githubusercontent.com/83097009/193627585-c6ab9860-8053-448c-9973-829c291401ad.png)
-![image](https://user-images.githubusercontent.com/83097009/193627723-6889dd68-bddb-4bca-b249-927df2298032.png)
-![image](https://user-images.githubusercontent.com/83097009/193627831-98fdbf53-c1e0-4c69-8209-07203c40985f.png) -->
+## Main Page
+![image](https://user-images.githubusercontent.com/83097009/196764339-2f0d5e8e-a73a-4728-bcd0-d463827dd1e5.png)
+![image](https://user-images.githubusercontent.com/83097009/196764402-2d94496d-8aab-4a41-b1cf-ee1d6ef4c40f.png)
+![image](https://user-images.githubusercontent.com/83097009/196764470-5a839f75-ef6a-4daf-bc2f-c27445dc8b45.png)
+![image](https://user-images.githubusercontent.com/83097009/196764514-d3994bbb-7509-4b32-becb-acdd6ccbe965.png)
+
+## About Page
+![image](https://user-images.githubusercontent.com/83097009/196765053-db675384-fa1b-4c36-9f31-44b5193fcfe3.png)
+![image](https://user-images.githubusercontent.com/83097009/196765108-980ee2d5-59f4-404b-8008-f41abfefe9da.png)
+![image](https://user-images.githubusercontent.com/83097009/196765167-244426fc-8a58-4c7c-a643-8a371c81f5b2.png)
 
 ### Desktop Version
-<!-- ![image](https://user-images.githubusercontent.com/83097009/193628129-2ad63d36-bc4a-4c94-a4f0-44c70f9860be.png)
-![image](https://user-images.githubusercontent.com/83097009/193628264-3318f885-4944-4a9c-98aa-ef70dfd87426.png)
-![image](https://user-images.githubusercontent.com/83097009/193628353-6f19697f-906f-43e3-84b2-94e21356ad7f.png)
-![image](https://user-images.githubusercontent.com/83097009/193628452-db41c808-9437-4943-a1bb-70a18c22d6a5.png) -->
+![image](https://user-images.githubusercontent.com/83097009/196765723-1a496abb-5137-4872-a054-1fdaa15b58a2.png)
+![image](https://user-images.githubusercontent.com/83097009/196765791-8ceecbf4-9bd3-4262-986d-ec06fca9aa90.png)
+![image](https://user-images.githubusercontent.com/83097009/196765874-509ff636-e906-4408-bca0-0a482c220de9.png)
+![image](https://user-images.githubusercontent.com/83097009/196765922-51ad39d7-1a0b-45cd-87ac-2a93d28521f4.png)
 
+## About Page
+![image](https://user-images.githubusercontent.com/83097009/196765365-7bdc0c51-04dd-40d7-92e2-19d846b344e4.png)
+![image](https://user-images.githubusercontent.com/83097009/196765443-b1ff2b73-0135-4abe-b33a-610b6b545f94.png)
 
 ## Getting Started
 
