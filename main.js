@@ -22,9 +22,9 @@ const SpeakerInformation = [
   },
   {
     id: 2,
-    name: 'Muzaffer Dler',
-    description: 'Muzaffer Dler',
-    description1: 'Dler have been into web development for 10 years and wants to share his knowledge in this filed.',
+    name: 'Shayma Tahsin',
+    description: 'Shayma Tahsin',
+    description1: 'Tahsin have been into web development for 10 years and wants to share his knowledge in this filed.',
     image: './img/speaker_04.png',
   },
   {
