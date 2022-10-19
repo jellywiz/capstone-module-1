@@ -253,7 +253,23 @@ small {
   font-weight: 700;
 }
 
+.show-less-btn {
+  width: 90%;
+  padding: 15px;
+  cursor: pointer;
+  background: none;
+  border: 1px solid gray;
+  font-weight: bold;
+  font-weight: 700;
+}
+
 .show-more-btn span {
+  padding: 5px;
+  color: rgb(239, 81, 60);
+  font-size: 20px;
+}
+
+.show-less-btn span {
   padding: 5px;
   color: rgb(239, 81, 60);
   font-size: 20px;
@@ -350,7 +366,19 @@ footer {
   display: none;
 }
 
+.btn-speakers {
+  text-align: center;
+}
+
 @media screen and (min-width: 768px) {
+  .display-off {
+    display: block;
+  }
+
+  .btn-speakers {
+    display: none;
+  }
+
   .social-link-container {
     display: block;
   }
@@ -379,6 +407,14 @@ footer {
     font-size: 12px;
     color: gray;
     margin-bottom: 0;
+  }
+
+  .show-more-btn {
+    display: none;
+  }
+
+  .show-less-btn {
+    display: none;
   }
 
   li {
