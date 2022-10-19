@@ -312,7 +312,7 @@ footer {
 .mobile-navbar {
   height: 100%;
   width: 100%;
-  background-color: orange;
+  background-color: red;
   position: fixed;
   padding-bottom: 50px;
   overflow: scroll;
@@ -336,9 +336,10 @@ footer {
 }
 
 .mobile-nav-item {
-  border: 2px solid red;
+  border: 2px solid black;
   color: black;
   font-size: 24px;
+  font-weight: bold;
 }
 
 .social-link-container {
